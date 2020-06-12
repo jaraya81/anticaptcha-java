@@ -1,0 +1,46 @@
+package org.github.jaraya81.Api;
+
+import org.github.jaraya81.AnticaptchaBase;
+import org.github.jaraya81.ApiResponse.TaskResultResponse;
+import org.github.jaraya81.Helper.DebugHelper;
+import org.github.jaraya81.IAnticaptchaTaskProtocol;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.net.URL;
+
+public class HCaptchaProxyless extends AnticaptchaBase implements IAnticaptchaTaskProtocol {
+    URL websiteUrl;
+    String websiteKey;
+
+    public JSONObject getPostData() {
+        JSONObject postData = new JSONObject();
+
+        try {
+            postData.put("type", "HCaptchaTaskProxyless");
+            postData.put("websiteURL", websiteUrl.toString());
+            postData.put("websiteKey", websiteKey);
+        } catch (JSONException e) {
+            DebugHelper.out("JSON compilation error: " + e.getMessage(), DebugHelper.Type.ERROR);
+
+            return null;
+        }
+
+        return postData;
+    }
+
+    @Override
+    public TaskResultResponse.SolutionData getTaskSolution() {
+        return taskInfo.getSolution();
+    }
+
+    @SuppressWarnings("unused")
+    public void setWebsiteUrl(URL websiteUrl) {
+        this.websiteUrl = websiteUrl;
+    }
+
+    @SuppressWarnings("unused")
+    public void setWebsiteKey(String websiteKey) {
+        this.websiteKey = websiteKey;
+    }
+}
