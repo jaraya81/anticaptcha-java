@@ -2,14 +2,14 @@ package org.github.jaraya81;
 
 
 
-import org.github.jaraya81.ApiResponse.BalanceResponse;
-import org.github.jaraya81.ApiResponse.CreateTaskResponse;
-import org.github.jaraya81.ApiResponse.TaskResultResponse;
-import org.github.jaraya81.Helper.DebugHelper;
-import org.github.jaraya81.Helper.HttpHelper;
-import org.github.jaraya81.Helper.JsonHelper;
-import org.github.jaraya81.Helper.StringHelper;
-import org.github.jaraya81.Http.HttpRequest;
+import org.github.jaraya81.api.response.BalanceResponse;
+import org.github.jaraya81.api.response.CreateTaskResponse;
+import org.github.jaraya81.api.response.TaskResultResponse;
+import org.github.jaraya81.helper.DebugHelper;
+import org.github.jaraya81.helper.HttpHelper;
+import org.github.jaraya81.helper.JsonHelper;
+import org.github.jaraya81.helper.StringHelper;
+import org.github.jaraya81.http.HttpRequest;
 import org.json.JSONException;
 import org.json.JSONObject;
 

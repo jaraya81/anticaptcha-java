@@ -1,8 +1,8 @@
 package org.github.jaraya81;
 
 
-import org.github.jaraya81.Api.*;
-import org.github.jaraya81.Helper.DebugHelper;
+import org.github.jaraya81.api.*;
+import org.github.jaraya81.helper.DebugHelper;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

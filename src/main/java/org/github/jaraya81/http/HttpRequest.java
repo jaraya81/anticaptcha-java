@@ -1,4 +1,4 @@
-package org.github.jaraya81.Http;
+package org.github.jaraya81.http;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

@@ -1,4 +1,4 @@
-package org.github.jaraya81.Helper;
+package org.github.jaraya81.helper;
 
 import org.apache.http.HttpHost;
 import org.apache.http.client.HttpClient;
@@ -15,8 +15,8 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.conn.DefaultProxyRoutePlanner;
 import org.apache.http.impl.cookie.BasicClientCookie;
-import org.github.jaraya81.Http.HttpRequest;
-import org.github.jaraya81.Http.HttpResponse;
+import org.github.jaraya81.http.HttpRequest;
+import org.github.jaraya81.http.HttpResponse;
 
 import java.io.IOException;
 import java.io.InputStream;

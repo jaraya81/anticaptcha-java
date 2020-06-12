@@ -1,7 +1,7 @@
 package org.github.jaraya81;
 
 
-import org.github.jaraya81.ApiResponse.TaskResultResponse;
+import org.github.jaraya81.api.response.TaskResultResponse;
 import org.json.JSONObject;
 
 public interface IAnticaptchaTaskProtocol {

@@ -1,9 +1,9 @@
-package org.github.jaraya81.Api;
+package org.github.jaraya81.api;
 
 
 import org.github.jaraya81.AnticaptchaBase;
-import org.github.jaraya81.ApiResponse.TaskResultResponse;
-import org.github.jaraya81.Helper.DebugHelper;
+import org.github.jaraya81.api.response.TaskResultResponse;
+import org.github.jaraya81.helper.DebugHelper;
 import org.github.jaraya81.IAnticaptchaTaskProtocol;
 import org.json.JSONException;
 import org.json.JSONObject;

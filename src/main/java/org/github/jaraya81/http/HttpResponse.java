@@ -1,4 +1,4 @@
-package org.github.jaraya81.Http;
+package org.github.jaraya81.http;
 
 import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.cookie.Cookie;

@@ -1,4 +1,4 @@
-package org.github.jaraya81.Helper;
+package org.github.jaraya81.helper;
 
 import org.json.JSONException;
 import org.json.JSONObject;

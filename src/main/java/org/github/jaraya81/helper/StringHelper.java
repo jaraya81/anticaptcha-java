@@ -1,4 +1,4 @@
-package org.github.jaraya81.Helper;
+package org.github.jaraya81.helper;
 
 import javax.xml.bind.DatatypeConverter;
 import java.nio.file.Files;
